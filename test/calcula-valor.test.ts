@@ -1,4 +1,5 @@
 import calculaValor from "../src/calcual-valor";
+import exemploMock from "../src/exemplo-mock";
 import "./extensoes";
 
 describe("calcularMontante", () => {
@@ -143,5 +144,10 @@ describe("Calcular Prestações", () => {
       const j = i + 1;
       expect(prestacoes[i]).toBeGreaterThanOrEqual(prestacoes[j]);
     }
+  });
+
+  test("Teste 03 - Somar dois números", () => {
+    const soma = exemploMock.somar(2, 3);
+    expect(soma).toBe(5);
   });
 });

@@ -18,6 +18,9 @@ function aguardarTimer(callback: () => void) {
   }, 3000);
 }
 
+function somar(a: number, b: number) {
+  return a + b;
+}
 function subtrair(a: number, b: number) {
   return a - b;
 }
@@ -25,5 +28,6 @@ function subtrair(a: number, b: number) {
 export default {
   realizarParaAdultos,
   aguardarTimer,
+  somar,
   subtrair,
 };
