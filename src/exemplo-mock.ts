@@ -18,7 +18,11 @@ function aguardarTimer(callback: () => void) {
   }, 3000);
 }
 
+function somar(a: number, b: number) {
+  return a + b;
+}
 export default {
   realizarParaAdultos,
   aguardarTimer,
+  somar,
 };
