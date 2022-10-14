@@ -18,7 +18,12 @@ function aguardarTimer(callback: () => void) {
   }, 3000);
 }
 
+function subtrair(a: number, b: number) {
+  return a - b;
+}
+
 export default {
   realizarParaAdultos,
   aguardarTimer,
+  subtrair,
 };
